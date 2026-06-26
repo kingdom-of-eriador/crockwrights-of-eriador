@@ -406,5 +406,27 @@
     "path": "/2/requiresTrait",
     "value": "artisan",
     "file": "recipes/grid/vanillaplanters.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillaplanters.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillaplanters.json"
   }
 ]

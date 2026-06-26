@@ -121,5 +121,91 @@
       "code": "game:clayplanter-copper",
       "quantity": 1
     }
+  },
+  {
+    "ingredientPattern": "JD,PS",
+    "ingredients": {
+      "J": {
+        "type": "block",
+        "code": "game:clayplanter-gray-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-pink"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-claystone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:clayplanter-cthonic",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "JD,PS",
+    "ingredients": {
+      "J": {
+        "type": "block",
+        "code": "game:clayplanter-brown-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-chert",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:clayplanter-earthern",
+      "quantity": 1
+    }
   }
 ]
