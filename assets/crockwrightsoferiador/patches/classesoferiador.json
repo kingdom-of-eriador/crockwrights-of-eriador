@@ -1,0 +1,376 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/6/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/7/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/8/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/9/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/10/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/11/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/12/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/13/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/14/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/15/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/16/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/17/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/18/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/19/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/20/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/21/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/22/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/23/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/24/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/25/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/26/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/27/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/28/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/29/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/30/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/31/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/32/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/33/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillastoragevessels.json"
+  }
+]

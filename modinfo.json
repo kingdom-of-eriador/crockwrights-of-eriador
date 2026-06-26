@@ -1,0 +1,11 @@
+{
+	"type": "content",
+	"modid": "crockwrightsoferiador",
+	"name": "Crock-Wrights of Eriador",
+	"authors": [
+		"Elirea",
+		"Gribbles"
+	],
+	"description": "Allows players to craft decorative pottery. Includes compatibility with several other pottery mods, and adds class-specific restrictions for Classes of Eriador.",
+	"version": "1.0.0"
+}

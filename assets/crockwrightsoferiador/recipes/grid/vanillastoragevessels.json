@@ -1,0 +1,1407 @@
+[
+  {
+    "ingredientPattern": "VD,TS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:lootvessel-*"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "T": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:strongtanninportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-slate",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-abyss",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-gray-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-blue"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "B": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-shale",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-ashforest",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,US",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:lootvessel-*"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-yellow"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "U": {
+        "type": "item",
+        "code": "game:powder-sulfur",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-bauxite",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-chains",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-gray-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-pink"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-claystone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-chthonic",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-red-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-orange"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "B": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-sandstone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-copper",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-brown-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-chert",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-earthen",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,GS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-cream-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "G": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-chalk",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-rain",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,PS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-cream-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-pink"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-chalk",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-cowrie",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,TS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-cream-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "T": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:strongtanninportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-conglomerate",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-rime",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-gray-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-red"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-andesite",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-oxblood",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-blue-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-slate",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-loam",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,TS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:lootvessel-*"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "T": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:strongtanninportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-peridotite",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-motheaten",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,US",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:lootvessel-*"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-yellow"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "U": {
+        "type": "item",
+        "code": "game:powder-sulfur",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-claystone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-entrenched",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,US",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:lootvessel-*"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-orange"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "U": {
+        "type": "item",
+        "code": "game:powder-sulfur",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-sandstone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-golden",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-blue-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-peridotite",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-undergrowth",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,US",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-blue-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-yellow"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "U": {
+        "type": "item",
+        "code": "game:powder-sulfur",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-slate",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-beehive",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,US",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-brown-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-yellow"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "U": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-bauxite",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-harvest",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,US",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-gray-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-yellow"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "U": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-granite",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-honeydew",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VL,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:lootvessel-*"
+      },
+      "L": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:brineportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-chert",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-patina",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VL,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:lootvessel-*"
+      },
+      "L": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:powder-sulfur",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-claystone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-pine",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BP",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-cream-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-blue"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "P": {
+        "type": "item",
+        "code": "game:powder-lapislazuli",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-rutile",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BP",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-cream-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "P": {
+        "type": "item",
+        "code": "game:crushed-olivine",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-seasalt",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BP",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:lootvessel-*"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:crushed-iron",
+        "quantity": 8
+      },
+      "P": {
+        "type": "item",
+        "code": "game:crushed-olivine",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-serpents",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BP",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-red-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "B": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-pink"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:crushed-olivine",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-springflowers",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-gray-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-black"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-orange"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-bauxite",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-volcanic",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-blue-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-yellow"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-sandstone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-cloisonne",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-gray-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-blue"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "B": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-chalk",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-cornflower",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-blue-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-white"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-chalk",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-talik",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-earthyorange-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-white"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:powder-lapislazuli",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-chalk",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-caveaurora",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-earthyorange-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-white"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:powder-lapislazuli",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-conglomerate",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-collonade",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-gray-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-white"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:powder-lapislazuli",
+        "quantity": 8
+      },
+      "S": {
+        "type": "item",
+        "code": "game:crushed-iron",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-rattlesnake",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VL,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:lootvessel-*"
+      },
+      "L": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-purple"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:crushed-iron",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-shale",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-void",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-tan-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-white"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:powder-lapislazuli",
+        "quantity": 8
+      },
+      "S": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-waves",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "VD,BS",
+    "ingredients": {
+      "V": {
+        "type": "block",
+        "code": "game:storagevessel-blue-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-white"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "game:powder-lapislazuli",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-wintersea",
+      "quantity": 1
+    }
+  }
+]
