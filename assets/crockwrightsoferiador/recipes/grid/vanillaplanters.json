@@ -1,0 +1,125 @@
+[
+  {
+    "ingredientPattern": "JD,PS",
+    "ingredients": {
+      "J": {
+        "type": "block",
+        "code": "game:clayplanter-fire-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-pink"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-claystone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:clayplanter-amber",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "JD,PS",
+    "ingredients": {
+      "J": {
+        "type": "block",
+        "code": "game:clayplanter-gray-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-blue"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-shale",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:clayplanter-ashforest",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "JD,PS",
+    "ingredients": {
+      "J": {
+        "type": "block",
+        "code": "game:clayplanter-red-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-orange"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "P": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-sandstone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:clayplanter-copper",
+      "quantity": 1
+    }
+  }
+]

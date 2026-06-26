@@ -372,5 +372,39 @@
     "path": "/33/requiresTrait",
     "value": "artisan",
     "file": "recipes/grid/vanillastoragevessels.json"
+  },
+
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillaplanters.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillaplanters.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillaplanters.json"
   }
 ]
