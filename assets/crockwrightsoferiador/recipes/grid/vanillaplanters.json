@@ -207,5 +207,85 @@
       "code": "game:clayplanter-earthern",
       "quantity": 1
     }
+  },
+  {
+    "ingredientPattern": "JD,PS",
+    "ingredients": {
+      "J": {
+        "type": "block",
+        "code": "game:clayplanter-blue-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-slate",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:clayplanter-loam",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "JD,PS",
+    "ingredients": {
+      "J": {
+        "type": "block",
+        "code": "game:clayplanter-fire-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:powder-sulfur",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-sandstone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:clayplanter-ochre",
+      "quantity": 1
+    }
   }
 ]
