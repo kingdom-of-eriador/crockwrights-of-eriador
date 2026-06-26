@@ -287,5 +287,128 @@
       "code": "game:clayplanter-ochre",
       "quantity": 1
     }
+  },
+  {
+    "ingredientPattern": "JD,PS",
+    "ingredients": {
+      "J": {
+        "type": "block",
+        "code": "game:clayplanter-cream-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:strongtanninportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-conglomerate",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:clayplanter-rime",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "JD,PS",
+    "ingredients": {
+      "J": {
+        "type": "block",
+        "code": "game:clayplanter-cream-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "S": {
+        "type": "item",
+        "code": "game:crushed-olivine",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:clayplanter-seasalt",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "JD,PS",
+    "ingredients": {
+      "J": {
+        "type": "block",
+        "code": "game:clayplanter-cream-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:strongtanninportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-claystone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:clayplanter-tenmoku",
+      "quantity": 1
+    }
   }
 ]
