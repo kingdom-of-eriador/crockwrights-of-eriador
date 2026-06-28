@@ -275,5 +275,42 @@
       "code": "game:flowerpot-ochre",
       "quantity": 1
     }
+  },
+  {
+    "ingredientPattern": "FD,PS",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "game:flowerpot-cream-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-blue"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "S": {
+        "type": "item",
+        "code": "game:powder-lapislazuli",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:flowerpot-rutile",
+      "quantity": 1
+    }
   }
 ]
