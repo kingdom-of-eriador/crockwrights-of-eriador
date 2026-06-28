@@ -1,0 +1,288 @@
+{
+  "code": "eriadorpot",
+  "classByType": {
+    "*-fired": "BlockCookingContainer",
+    "*-cooked": "BlockCookedContainer"
+  },
+  "entityclassByType": {
+    "*-cooked": "CookedContainer"
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.125,
+          "z2": 1
+        }
+      }
+    },
+    {
+      "name": "Unplaceable"
+    }
+  ],
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "variantgroups": [
+    {
+      "code": "color",
+      "states": [
+        "springflowers"
+      ]
+    },
+    {
+      "code": "type",
+      "states": [
+        "fired",
+        "cooked"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "*": {
+      "base": "block/clay/eriadorpot-{color}"
+    }
+  },
+  "textures": {
+    "transparent": {
+      "base": "block/transparent"
+    },
+    "dark": {
+      "base": "block/clay/hardened/{color}",
+      "overlays": [
+        "block/clay/overlay/dark"
+      ]
+    },
+    "lid": {
+      "base": "block/clay/hardened/{color}",
+      "overlays": [
+        "block/clay/overlay/crock"
+      ]
+    },
+    "group1": { "base": "game:block/food/meal/group1-flax-carrot-blueberry-cottagecheese-fish" },
+    "group2": { "base": "game:block/food/meal/group2-soup-flyagaric-cactifruit-redmeat" },
+    "group3": { "base": "game:block/food/meal/group3-millet-bolete-cranberry-poultry" },
+    "group4": { "base": "game:block/food/meal/group4-rice-parsnip-whitecurrant-bluecheese-fishstew" },
+    "group5": { "base": "game:block/food/meal/group5-rye-turnip-blackcurrant-cheddarcheese-poultrystew" },
+    "group6": { "base": "game:block/food/meal/group6-spelt-onion-redcurrant-egg-redmeatstew" },
+    "group7": { "base": "game:block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat" },
+    "group8": { "base": "game:block/food/meal/group8-amaranth-pumpkin-bellpepper-bushmeatstew" },
+    "group9": { "base": "game:block/food/meal/group9-sunflower-soya" },
+    "group10": { "base": "game:block/food/meal/group10-cabbage" },
+    "group11": { "base": "game:block/food/meal/group11-cassava" },
+    "group12": { "base": "game:block/food/meal/group12-peanut" },
+    "group13": { "base": "game:block/food/meal/group13-aubergine" },
+    "group14": { "base": "game:block/food/meal/group14-tomato" },
+    "group15": { "base": "game:block/food/meal/group15-walnut" },
+    "group17": { "base": "game:block/food/meal/group17-olive" },
+    "honey": { "base": "game:block/liquid/honey" },
+    "fruit-redapple": { "base": "game:block/food/pie/fill-apple" },
+    "fruit-pinkapple": { "base": "game:block/food/pie/fill-apple" },
+    "fruit-yellowapple": { "base": "game:block/food/pie/fill-apple" },
+    "fruit-cherry": { "base": "game:block/food/pie/fill-cherry" },
+    "fruit-peach": { "base": "game:block/food/pie/fill-peach" },
+    "fruit-pear": { "base": "game:block/food/pie/fill-pear" },
+    "fruit-orange": { "base": "game:block/food/pie/fill-orange" },
+    "fruit-mango": { "base": "game:block/food/pie/fill-mango" },
+    "fruit-pomegranate": { "base": "game:block/food/pie/fill-pomegranate" },
+    "fruit-lychee": { "base": "game:block/food/pie/fill-lychee" },
+    "fruit-breadfruit": { "base": "game:block/food/pie/fill-breadfruit" },
+
+    "rot-solids": { "base": "game:item/resource/rot/rot-solids" },
+    "rot-spill": { "base": "game:item/resource/rot/rot-spill" },
+
+    "milkportion": { "base": "game:block/food/dairy/milk" },
+    "cottagecheeseportion": { "base": "game:block/food/dairy/cottagecheese" },
+    "glue-hot": { "base": "game:block/liquid/glue-hot" },
+    "glue-cold": { "base": "game:block/liquid/glue-cold" }
+  },
+  "texturesByType": {
+    "springflowers": {
+      "ceramic": {
+        "base": "game:block/clay/vessel/sides/springflowers"
+      }
+    }
+  },
+  "attributes": {
+    "tempGlowMode": 1,
+    "shelvable": true,
+    "mealContainer": true,
+    "attachmentArea": {
+      "x1": 4,
+      "y1": 0,
+      "z1": 4,
+      "x2": 11,
+      "y2": 0,
+      "z2": 11
+    },
+    "servingCapacity": 6,
+    "storageType": 1,
+    "maxTemperature": 200,
+    "mealBlockCode": "eriadorpot-{color}-cooked",
+    "attachShape": {
+      "base": "game:item/wearable/hooved/cookpot"
+    },
+    "wearableAttachment": true,
+    "wearableCategoryCode": "frontrightside",
+    "attachableToEntity": {
+      "categoryCode": "pot",
+      "texturePrefixCode": "cookpot-{color}-{type}",
+      "attachedShapeBySlotCode": {
+        "frontrightside": {
+          "base": "game:item/wearable/hooved/elk/cookpotr"
+        },
+        "frontleftside": {
+          "base": "game:item/wearable/hooved/elk/cookpotl"
+        }
+      }
+    },
+    "inFirePitProps": {
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": 0.125,
+          "z": 0
+        }
+      },
+      "useFirepitModel": "Wide"
+    },
+    "onTongTransform": {
+      "translation": {
+        "x": -1.23,
+        "y": -0.9,
+        "z": -0.51
+      },
+      "rotation": {
+        "x": 5,
+        "y": 0,
+        "z": 72
+      },
+      "scale": 0.8
+    },
+    "handbook": {
+      "groupBy": [
+        "eriadorpot-*-{type}"
+      ]
+    },
+    "onMetalTongTransform": {
+      "translation": {
+        "x": -1.02,
+        "y": -0.61,
+        "z": -0.51
+      },
+      "rotation": {
+        "x": -6,
+        "y": 0,
+        "z": 76
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.3,
+        "z": 0.5
+      },
+      "scale": 0.9
+    },
+    "displayable": {
+      "shelf": {
+        "size": {
+          "width": 7,
+          "height": 5.5,
+          "length": 7
+        }
+      }
+    }
+  },
+  "attributesByType": {
+    "*-fired": {
+      "cookingContainerSlots": 4,
+      "maxContainerSlotStackSize": 6,
+      "dirtiedBlockCode": "dirtyeriadorpot-{color}-cooked"
+    },
+    "claypot-blue-cooked": {
+      "emptiedBlockCode": "claypot-blue-fired",
+      "allowHeating": true,
+      "handleCookingContainerInteract": true
+    },
+    "*-cooked": {
+      "emptiedBlockCode": "claypot-{color}-fired",
+      "allowHeating": true,
+      "handleCookingContainerInteract": true
+    }
+  },
+  "doNotRenderAtLod2": true,
+  "blockmaterial": "Ceramic",
+  "creativeinventory": {
+    "general": [
+      "*-fired"
+    ],
+    "decorative": [
+      "*-fired"
+    ]
+  },
+  "replaceable": 400,
+  "resistance": 1.5,
+  "maxStackSizeByType": {
+    "*-cooked": 1,
+    "*": 8
+  },
+  "lightAbsorption": 0,
+  "sounds": {
+    "walk": "walk/stone"
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "collisionbox": {
+    "x1": 0.28,
+    "y1": 0,
+    "z1": 0.28,
+    "x2": 0.72,
+    "y2": 0.3125,
+    "z2": 0.72
+  },
+  "selectionbox": {
+    "x1": 0.28,
+    "y1": 0,
+    "z1": 0.28,
+    "x2": 0.72,
+    "y2": 0.3125,
+    "z2": 0.72
+  },
+  "guiTransform": {
+    "origin": {
+      "x": 0.5,
+      "y": 0.2,
+      "z": 0.5
+    },
+    "scale": 2
+  },
+  "groundTransform": {
+    "scale": 3
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.6799,
+      "y": 0.06,
+      "z": -0.37
+    },
+    "rotation": {
+      "x": -82,
+      "y": 19,
+      "z": -103
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 0.76
+  }
+}
