@@ -195,5 +195,48 @@
       "code": "game:flowerpot-earthern",
       "quantity": 1
     }
+  },
+  {
+    "ingredientPattern": "FD,PS",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "game:flowerpot-blue-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "P": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-sandstone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:flowerpot-moss",
+      "quantity": 1
+    }
   }
 ]
