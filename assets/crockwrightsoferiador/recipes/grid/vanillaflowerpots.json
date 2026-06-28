@@ -109,6 +109,48 @@
       "code": "game:flowerpot-celadon",
       "quantity": 1
     }
+  },
+  {
+    "ingredientPattern": "FD,PS",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "game:flowerpot-red-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-orange"
+          },
+          "requiresLitres": 5
+        }
+      },
+      "P": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 10
+        }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-sandstone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:flowerpot-copper",
+      "quantity": 1
+    }
   }
-
 ]
