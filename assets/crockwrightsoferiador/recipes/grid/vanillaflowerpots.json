@@ -1,0 +1,40 @@
+[
+  {
+    "ingredientPattern": "FD,PS",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "game:flowerpot-fire-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-pink"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-claystone",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:flowerpot-amber",
+      "quantity": 1
+    }
+  }
+
+]
