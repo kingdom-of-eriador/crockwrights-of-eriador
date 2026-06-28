@@ -35,6 +35,43 @@
       "code": "game:flowerpot-amber",
       "quantity": 1
     }
+  },
+  {
+    "ingredientPattern": "FD,PS",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "game:flowerpot-gray-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-white"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:bonemeal",
+        "quantity": 8
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sand-granite",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:flowerpot-boneash",
+      "quantity": 1
+    }
   }
 
 ]
