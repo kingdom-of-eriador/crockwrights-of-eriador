@@ -312,5 +312,42 @@
       "code": "game:flowerpot-rutile",
       "quantity": 1
     }
+  },
+  {
+    "ingredientPattern": "FD,PS",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "game:flowerpot-cream-fired"
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "S": {
+        "type": "item",
+        "code": "game:crushed-olivine",
+        "quantity": 8
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:flowerpot-seasalt",
+      "quantity": 1
+    }
   }
 ]

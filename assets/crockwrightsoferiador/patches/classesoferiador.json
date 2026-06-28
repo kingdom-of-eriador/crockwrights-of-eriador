@@ -571,5 +571,16 @@
     "path": "/7/requiresTrait",
     "value": "artisan",
     "file": "recipes/grid/vanillaflowerpots.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/8/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/vanillaflowerpots.json"
   }
 ]
