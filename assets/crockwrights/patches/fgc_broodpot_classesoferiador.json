@@ -264,5 +264,33 @@
     "path": "/18/requiresTrait",
     "value": "artisan",
     "file": "recipes/grid/fromgoldencombsrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      },
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/19/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/fromgoldencombsrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      },
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/20/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/fromgoldencombsrecipes.json"
   }
 ]

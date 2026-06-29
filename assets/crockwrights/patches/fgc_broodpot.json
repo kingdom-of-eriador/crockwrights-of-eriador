@@ -962,5 +962,103 @@
       }
     },
     "file": "recipes/grid/fromgoldencombsrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/19",
+    "value": {
+      "ingredientPattern": "CD,PS",
+      "ingredients": {
+        "C": {
+          "type": "block",
+          "code": "fromgoldencombs:ceramicbroodpot-brown-notop"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-white"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "P": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dilutedboraxportion"
+            },
+            "requiresLitres": 10
+          }
+        },
+        "S": {
+          "type": "block",
+          "code": "game:sand-chalk",
+          "quantity": 8
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "fromgoldencombs:ceramicbroodpot-talik-notop"
+      }
+    },
+    "file": "recipes/grid/fromgoldencombsrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/20",
+    "value": {
+      "ingredientPattern": "CD,PS",
+      "ingredients": {
+        "C": {
+          "type": "block",
+          "code": "fromgoldencombs:ceramicbroodpot-orange-notop"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-white"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "P": {
+          "type": "item",
+          "code": "game:powder-lapislazuli",
+          "quantity": 8
+        },
+        "S": {
+          "type": "block",
+          "code": "game:sand-chalk",
+          "quantity": 8
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "fromgoldencombs:ceramicbroodpot-caveaurora-notop"
+      }
+    },
+    "file": "recipes/grid/fromgoldencombsrecipes.json"
   }
 ]
