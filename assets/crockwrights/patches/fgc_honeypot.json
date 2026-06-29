@@ -12,7 +12,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-gray-notop"
+          "code": "fromgoldencombs:hivetop-gray-fired"
         },
         "D": {
           "type": "block",
@@ -46,10 +46,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-ashforest-notop"
+        "code": "fromgoldencombs:hivetop-ashforest-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -64,7 +64,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-gray-notop"
+          "code": "fromgoldencombs:hivetop-gray-fired"
         },
         "D": {
           "type": "block",
@@ -98,10 +98,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-chthonic-notop"
+        "code": "fromgoldencombs:hivetop-chthonic-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -116,7 +116,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-red-notop"
+          "code": "fromgoldencombs:hivetop-red-fired"
         },
         "D": {
           "type": "block",
@@ -150,10 +150,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-copper-notop"
+        "code": "fromgoldencombs:hivetop-copper-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -168,7 +168,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-brown-notop"
+          "code": "fromgoldencombs:hivetop-brown-fired"
         },
         "D": {
           "type": "block",
@@ -202,10 +202,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-earthen-notop"
+        "code": "fromgoldencombs:hivetop-earthen-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -220,7 +220,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-cream-notop"
+          "code": "fromgoldencombs:hivetop-cream-fired"
         },
         "D": {
           "type": "block",
@@ -254,10 +254,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-rain-notop"
+        "code": "fromgoldencombs:hivetop-rain-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -272,7 +272,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-cream-notop"
+          "code": "fromgoldencombs:hivetop-cream-fired"
         },
         "D": {
           "type": "block",
@@ -306,10 +306,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-cowrie-notop"
+        "code": "fromgoldencombs:hivetop-cowrie-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -324,7 +324,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-cream-notop"
+          "code": "fromgoldencombs:hivetop-cream-fired"
         },
         "D": {
           "type": "block",
@@ -358,10 +358,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-rime-notop"
+        "code": "fromgoldencombs:hivetop-rime-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -376,7 +376,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-gray-notop"
+          "code": "fromgoldencombs:hivetop-gray-fired"
         },
         "D": {
           "type": "block",
@@ -410,10 +410,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-oxblood-notop"
+        "code": "fromgoldencombs:hivetop-oxblood-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -428,7 +428,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-brown-notop"
+          "code": "fromgoldencombs:hivetop-brown-fired"
         },
         "D": {
           "type": "block",
@@ -462,10 +462,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-loam-notop"
+        "code": "fromgoldencombs:hivetop-loam-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -480,7 +480,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-brown-notop"
+          "code": "fromgoldencombs:hivetop-brown-fired"
         },
         "D": {
           "type": "block",
@@ -508,10 +508,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-undergrowth-notop"
+        "code": "fromgoldencombs:hivetop-undergrowth-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -526,7 +526,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-brown-notop"
+          "code": "fromgoldencombs:hivetop-brown-fired"
         },
         "D": {
           "type": "block",
@@ -554,10 +554,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-beehive-notop"
+        "code": "fromgoldencombs:hivetop-beehive-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -572,7 +572,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-brown-notop"
+          "code": "fromgoldencombs:hivetop-brown-fired"
         },
         "D": {
           "type": "block",
@@ -606,10 +606,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-harvest-notop"
+        "code": "fromgoldencombs:hivetop-harvest-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -624,7 +624,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-gray-notop"
+          "code": "fromgoldencombs:hivetop-gray-fired"
         },
         "D": {
           "type": "block",
@@ -658,10 +658,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-honeydew-notop"
+        "code": "fromgoldencombs:hivetop-honeydew-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -676,7 +676,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-cream-notop"
+          "code": "fromgoldencombs:hivetop-cream-fired"
         },
         "D": {
           "type": "block",
@@ -704,10 +704,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-rutile-notop"
+        "code": "fromgoldencombs:hivetop-rutile-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -722,7 +722,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-cream-notop"
+          "code": "fromgoldencombs:hivetop-cream-fired"
         },
         "D": {
           "type": "block",
@@ -750,10 +750,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-seasalt-notop"
+        "code": "fromgoldencombs:hivetop-seasalt-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -768,7 +768,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-red-notop"
+          "code": "fromgoldencombs:hivetop-red-fired"
         },
         "D": {
           "type": "block",
@@ -802,10 +802,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-springflowers-notop"
+        "code": "fromgoldencombs:hivetop-springflowers-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -820,7 +820,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-gray-notop"
+          "code": "fromgoldencombs:hivetop-gray-fired"
         },
         "D": {
           "type": "block",
@@ -854,10 +854,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-volcanic-notop"
+        "code": "fromgoldencombs:hivetop-volcanic-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -872,7 +872,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-brown-notop"
+          "code": "fromgoldencombs:hivetop-brown-fired"
         },
         "D": {
           "type": "block",
@@ -906,10 +906,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-cloisonne-notop"
+        "code": "fromgoldencombs:hivetop-cloisonne-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -924,7 +924,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-gray-notop"
+          "code": "fromgoldencombs:hivetop-gray-fired"
         },
         "D": {
           "type": "block",
@@ -958,10 +958,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-cornflower-notop"
+        "code": "fromgoldencombs:hivetop-cornflower-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -976,7 +976,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-brown-notop"
+          "code": "fromgoldencombs:hivetop-brown-fired"
         },
         "D": {
           "type": "block",
@@ -1010,10 +1010,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-talik-notop"
+        "code": "fromgoldencombs:hivetop-talik-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -1028,7 +1028,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-orange-notop"
+          "code": "fromgoldencombs:hivetop-orange-fired"
         },
         "D": {
           "type": "block",
@@ -1056,10 +1056,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-caveaurora-notop"
+        "code": "fromgoldencombs:hivetop-caveaurora-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -1074,7 +1074,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-orange-notop"
+          "code": "fromgoldencombs:hivetop-orange-fired"
         },
         "D": {
           "type": "block",
@@ -1102,10 +1102,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-collonade-notop"
+        "code": "fromgoldencombs:hivetop-collonade-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -1120,7 +1120,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-gray-notop"
+          "code": "fromgoldencombs:hivetop-gray-fired"
         },
         "D": {
           "type": "block",
@@ -1148,10 +1148,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-rattlesnake-notop"
+        "code": "fromgoldencombs:hivetop-rattlesnake-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -1166,7 +1166,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-tan-notop"
+          "code": "fromgoldencombs:hivetop-tan-fired"
         },
         "D": {
           "type": "block",
@@ -1194,10 +1194,10 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-waves-notop"
+        "code": "fromgoldencombs:hivetop-waves-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   },
   {
     "dependsOn": [
@@ -1212,7 +1212,7 @@
       "ingredients": {
         "C": {
           "type": "block",
-          "code": "fromgoldencombs:ceramicbroodpot-gray-notop"
+          "code": "fromgoldencombs:hivetop-gray-fired"
         },
         "D": {
           "type": "block",
@@ -1246,9 +1246,9 @@
       "height": 2,
       "output": {
         "type": "block",
-        "code": "fromgoldencombs:ceramicbroodpot-wintersea-notop"
+        "code": "fromgoldencombs:hivetop-wintersea-fired"
       }
     },
-    "file": "recipes/grid/fgc_broodpotrecipes.json"
+    "file": "recipes/grid/fgc_honeypotrecipes.json"
   }
 ]
