@@ -1,0 +1,51 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"rattlesnake": [16,16],
+		"beehive": [16,16],
+		"caveaurora": [16,16],
+		"abyss": [16,16],
+		"cornflower": [16,16],
+		"harvest": [16,16],
+		"springflowers": [16,16],
+		"springflowers2": [16,16]
+	},
+	"textures": {
+		"springflowers2": "game:block/clay/vessel/top/springflowers"
+	},
+	"elements": [
+		{
+			"name": "lid",
+			"from": [ 5.5, 0.0, 5.5 ],
+			"to": [ 10.5, 0.5, 10.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#springflowers2", "uv": [ 5.0, 12.0, 10.0, 12.5 ] },
+				"east": { "texture": "#springflowers2", "uv": [ 4.5, 12.0, 9.5, 12.5 ] },
+				"south": { "texture": "#springflowers2", "uv": [ 5.0, 12.0, 10.0, 12.5 ] },
+				"west": { "texture": "#springflowers2", "uv": [ 5.0, 12.0, 10.0, 12.5 ] },
+				"up": { "texture": "#springflowers2", "uv": [ 3.0, 3.0, 13.0, 13.0 ], "autoUv": false },
+				"down": { "texture": "#springflowers2", "uv": [ 0.0, 11.0, 3.0, 14.5 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "handle",
+					"from": [ 2.0, 0.5, 2.0 ],
+					"to": [ 3.0, 1.0, 3.0 ],
+					"rotationOrigin": [ 2.0, 0.5, 2.0 ],
+					"faces": {
+						"north": { "texture": "#springflowers2", "uv": [ 11.5, 4.5, 10.5, 5.5 ], "autoUv": false },
+						"east": { "texture": "#springflowers2", "uv": [ 10.5, 4.5, 11.5, 5.0 ], "autoUv": false },
+						"south": { "texture": "#springflowers2", "uv": [ 11.5, 4.5, 10.5, 5.0 ], "autoUv": false },
+						"west": { "texture": "#springflowers2", "uv": [ 10.5, 4.5, 11.5, 5.0 ] },
+						"up": { "texture": "#springflowers2", "uv": [ 10.5, 4.5, 11.5, 5.5 ] }
+					}
+				}
+			]
+		}
+	]}

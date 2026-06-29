@@ -45,13 +45,13 @@
   ],
   "shapeByType": {
     "*": {
-      "base": "block/clay/eriadorpot-{color}"
+      "base": "block/clay/eriadorpot-{color}-opened-empty"
     }
   },
   "textures": {
-    "transparent": {
-      "base": "game:block/transparent"
-    },
+    "springflowers": { "base": "game:block/clay/vessel/sides/springflowers" },
+    "springflowers2": { "base": "game:block/clay/vessel/top/springflowers" },
+    "transparent": { "base": "game:block/transparent" },
     "group1": { "base": "game:block/food/meal/group1-flax-carrot-blueberry-cottagecheese-fish" },
     "group2": { "base": "game:block/food/meal/group2-soup-flyagaric-cactifruit-redmeat" },
     "group3": { "base": "game:block/food/meal/group3-millet-bolete-cranberry-poultry" },
@@ -89,16 +89,6 @@
     "glue-hot": { "base": "game:block/liquid/glue-hot" },
     "glue-cold": { "base": "game:block/liquid/glue-cold" }
   },
-  "texturesByType": {
-    "springflowers": {
-      "ceramic": {
-        "base": "game:block/clay/vessel/sides/springflowers"
-      },
-      "lid": {
-        "base": "game:block/clay/vessel/sides/springflowers"
-      }
-    }
-  },
   "attributes": {
     "tempGlowMode": 1,
     "shelvable": true,
@@ -122,6 +112,7 @@
     "servingCapacity": 6,
     "storageType": 1,
     "maxTemperature": 200,
+    "rendererBasePath":  "crockwrights:shapes/block/clay/eriadorpot-{color}-",
     "mealBlockCode": "crockwrights:eriadorpot-{color}-cooked",
     "attachShape": {
       "base": "game:item/wearable/hooved/cookpot"
@@ -216,7 +207,7 @@
     "decorative": [
       "*-fired"
     ],
-    "crockwright": [
+    "crockwrights": [
       "*-fired"
     ]
   },
