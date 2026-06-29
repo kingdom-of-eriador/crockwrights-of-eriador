@@ -97,8 +97,7 @@
       "lid": {
         "base": "game:block/clay/vessel/sides/springflowers"
       }
-    },
-
+    }
   },
   "attributes": {
     "tempGlowMode": 1,
@@ -123,7 +122,6 @@
     "servingCapacity": 6,
     "storageType": 1,
     "maxTemperature": 200,
-    "rendererBasePath": "crockwrights:block/clay/eriadorpot-{color}-",
     "mealBlockCode": "crockwrights:eriadorpot-{color}-cooked",
     "attachShape": {
       "base": "game:item/wearable/hooved/cookpot"
