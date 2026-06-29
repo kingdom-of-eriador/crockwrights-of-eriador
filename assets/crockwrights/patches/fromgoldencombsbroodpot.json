@@ -110,7 +110,7 @@
       }
     ],
     "op": "addmerge",
-    "path": "/1",
+    "path": "/2",
     "value": {
       "ingredientPattern": "CD,PS",
       "ingredients": {
@@ -118,39 +118,91 @@
           "type": "block",
           "code": "fromgoldencombs:ceramicbroodpot-red-notop"
         },
-      "D": {
-        "type": "block",
-        "code": "game:woodbucket",
-        "recipeAttributes": {
-          "requiresContent": {
-            "type": "item",
-            "code": "game:dye-orange"
-          },
-          "requiresLitres": 5
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-orange"
+            },
+            "requiresLitres": 5
+          }
+        },
+        "P": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dilutedboraxportion"
+            },
+            "requiresLitres": 10
+          }
+        },
+        "S": {
+          "type": "block",
+          "code": "game:sand-sandstone",
+          "quantity": 8
         }
-      },
-      "P": {
-        "type": "block",
-        "code": "game:woodbucket",
-        "recipeAttributes": {
-          "requiresContent": {
-            "type": "item",
-            "code": "game:dilutedboraxportion"
-          },
-          "requiresLitres": 10
-        }
-      },
-      "S": {
-        "type": "block",
-        "code": "game:sand-sandstone",
-        "quantity": 8
-      }
       },
       "width": 2,
       "height": 2,
       "output": {
         "type": "block",
         "code": "fromgoldencombs:ceramicbroodpot-copper-notop"
+      }
+    },
+    "file": "recipes/grid/fromgoldencombsrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/3",
+    "value": {
+      "ingredientPattern": "CD,PS",
+      "ingredients": {
+        "C": {
+          "type": "block",
+          "code": "fromgoldencombs:ceramicbroodpot-brown-notop"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-gray"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "P": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dilutedboraxportion"
+            },
+            "requiresLitres": 10
+          }
+        },
+        "S": {
+          "type": "block",
+          "code": "game:sand-chert",
+          "quantity": 8
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "fromgoldencombs:ceramicbroodpot-earthen-notop"
       }
     },
     "file": "recipes/grid/fromgoldencombsrecipes.json"
