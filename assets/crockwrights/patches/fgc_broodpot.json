@@ -662,5 +662,97 @@
       }
     },
     "file": "recipes/grid/fromgoldencombsrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/13",
+    "value": {
+      "ingredientPattern": "CD,PS",
+      "ingredients": {
+        "C": {
+          "type": "block",
+          "code": "fromgoldencombs:ceramicbroodpot-cream-notop"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-blue"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "P": {
+          "type": "item",
+          "code": "game:powder-borax",
+          "quantity": 8
+        },
+        "S": {
+          "type": "item",
+          "code": "game:powder-lapislazuli",
+          "quantity": 8
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "fromgoldencombs:ceramicbroodpot-rutile-notop"
+      }
+    },
+    "file": "recipes/grid/fromgoldencombsrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/14",
+    "value": {
+      "ingredientPattern": "CD,PS",
+      "ingredients": {
+        "C": {
+          "type": "block",
+          "code": "fromgoldencombs:ceramicbroodpot-cream-notop"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-green"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "P": {
+          "type": "item",
+          "code": "game:powder-borax",
+          "quantity": 8
+        },
+        "S": {
+          "type": "item",
+          "code": "game:crushed-olivine",
+          "quantity": 8
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "fromgoldencombs:ceramicbroodpot-seasalt-notop"
+      }
+    },
+    "file": "recipes/grid/fromgoldencombsrecipes.json"
   }
 ]
