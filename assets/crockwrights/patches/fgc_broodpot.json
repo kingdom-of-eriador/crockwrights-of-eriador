@@ -310,5 +310,57 @@
       }
     },
     "file": "recipes/grid/fromgoldencombsrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/6",
+    "value": {
+      "ingredientPattern": "CD,PS",
+      "ingredients": {
+        "C": {
+          "type": "block",
+          "code": "fromgoldencombs:ceramicbroodpot-cream-notop"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-gray"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "P": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:strongtanninportion"
+            },
+            "requiresLitres": 10
+          }
+        },
+        "S": {
+          "type": "block",
+          "code": "game:sand-conglomerate",
+          "quantity": 8
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "fromgoldencombs:ceramicbroodpot-rime-notop"
+      }
+    },
+    "file": "recipes/grid/fromgoldencombsrecipes.json"
   }
 ]
