@@ -754,5 +754,109 @@
       }
     },
     "file": "recipes/grid/fromgoldencombsrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/15",
+    "value": {
+      "ingredientPattern": "CD,PS",
+      "ingredients": {
+        "C": {
+          "type": "block",
+          "code": "fromgoldencombs:ceramicbroodpot-red-notop"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-green"
+            },
+            "requiresLitres": 5
+          }
+        },
+        "P": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-pink"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "S": {
+          "type": "item",
+          "code": "game:crushed-olivine",
+          "quantity": 8
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "fromgoldencombs:ceramicbroodpot-springflowers-notop"
+      }
+    },
+    "file": "recipes/grid/fromgoldencombsrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/16",
+    "value": {
+      "ingredientPattern": "CD,PS",
+      "ingredients": {
+        "C": {
+          "type": "block",
+          "code": "fromgoldencombs:ceramicbroodpot-gray-notop"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-black"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "P": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-orange"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "S": {
+          "type": "block",
+          "code": "game:sand-bauxite",
+          "quantity": 8
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "fromgoldencombs:ceramicbroodpot-volcanic-notop"
+      }
+    },
+    "file": "recipes/grid/fromgoldencombsrecipes.json"
   }
 ]
