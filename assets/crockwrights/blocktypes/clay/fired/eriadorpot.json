@@ -50,19 +50,7 @@
   },
   "textures": {
     "transparent": {
-      "base": "block/transparent"
-    },
-    "dark": {
-      "base": "block/clay/hardened/{color}",
-      "overlays": [
-        "block/clay/overlay/dark"
-      ]
-    },
-    "lid": {
-      "base": "block/clay/hardened/{color}",
-      "overlays": [
-        "block/clay/overlay/crock"
-      ]
+      "base": "game:block/transparent"
     },
     "group1": { "base": "game:block/food/meal/group1-flax-carrot-blueberry-cottagecheese-fish" },
     "group2": { "base": "game:block/food/meal/group2-soup-flyagaric-cactifruit-redmeat" },
@@ -105,12 +93,24 @@
     "springflowers": {
       "ceramic": {
         "base": "game:block/clay/vessel/sides/springflowers"
+      },
+      "lid": {
+        "base": "game:block/clay/vessel/sides/springflowers"
       }
-    }
+    },
+
   },
   "attributes": {
     "tempGlowMode": 1,
     "shelvable": true,
+    "onshelfTransform": {
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
     "mealContainer": true,
     "attachmentArea": {
       "x1": 4,
@@ -123,6 +123,7 @@
     "servingCapacity": 6,
     "storageType": 1,
     "maxTemperature": 200,
+    "rendererBasePath": "crockwrights:block/clay/eriadorpot-{color}-",
     "mealBlockCode": "crockwrights:eriadorpot-{color}-cooked",
     "attachShape": {
       "base": "game:item/wearable/hooved/cookpot"
@@ -131,13 +132,12 @@
     "wearableCategoryCode": "frontrightside",
     "attachableToEntity": {
       "categoryCode": "pot",
-      "texturePrefixCode": "cookpot-{color}-{type}",
       "attachedShapeBySlotCode": {
         "frontrightside": {
-          "base": "game:item/wearable/hooved/elk/cookpotr"
+          "base": "crockwrights:item/wearable/hooved/elk/eriadorpot-{color}-r"
         },
         "frontleftside": {
-          "base": "game:item/wearable/hooved/elk/cookpotl"
+          "base": "crockwrights:item/wearable/hooved/elk/eriadorpot-{color}-l"
         }
       }
     },
@@ -201,15 +201,10 @@
     "*-fired": {
       "cookingContainerSlots": 4,
       "maxContainerSlotStackSize": 6,
-      "dirtiedBlockCode": "dirtyeriadorpot-{color}-cooked"
-    },
-    "claypot-blue-cooked": {
-      "emptiedBlockCode": "claypot-blue-fired",
-      "allowHeating": true,
-      "handleCookingContainerInteract": true
+      "dirtiedBlockCode": "crockwrights:eriadorpot-{color}-fired"
     },
     "*-cooked": {
-      "emptiedBlockCode": "claypot-{color}-fired",
+      "emptiedBlockCode": "crockwrights:eriadorpot-{color}-fired",
       "allowHeating": true,
       "handleCookingContainerInteract": true
     }
@@ -221,6 +216,9 @@
       "*-fired"
     ],
     "decorative": [
+      "*-fired"
+    ],
+    "crockwright": [
       "*-fired"
     ]
   },
