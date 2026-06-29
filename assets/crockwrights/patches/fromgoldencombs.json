@@ -1,0 +1,81 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": {
+      "include": true,
+      "excludeByType": {
+        "*-withtop": true
+      }
+    },
+    "file": "fromgoldencombs:blocktypes/ceramicpot/ceramicbroodpot-fancy.json"
+  },
+
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/0",
+    "value": {
+      "ingredientPattern": "CD,PS",
+      "ingredients": {
+        "C": {
+          "type": "block",
+          "code": "fromgoldencombs:ceramicbroodpot-*-notop",
+          "allowedVariants": [
+            "tan",
+            "orange",
+            "red",
+            "brown",
+            "cream",
+            "gray",
+            "black",
+            "fire"
+          ]
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-blue"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "P": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dilutedboraxportion"
+            },
+            "requiresLitres": 10
+          }
+        },
+        "S": {
+          "type": "block",
+          "code": "game:sand-shale",
+          "quantity": 8
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "fromgoldencombs:ceramicbroodpot-ashforest-notop"
+      }
+    },
+    "file": "recipes/grid/fromgoldencombsrecipes.json"
+  }
+]
