@@ -15,5 +15,54 @@
     },
     "file": "fromgoldencombs:blocktypes/ceramicpot/ceramicbroodpot-fancy.json",
     "__comment": "Patch to expose From Golden Combs ceramic pots in the handbook"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/creativeinventory",
+    "value": {
+      "fromgoldencombs": [
+        "*"
+      ]
+    },
+    "file": "fromgoldencombs:blocktypes/ceramicpot/ceramicbroodpot-fancy.json",
+    "__comment": "Patch to expose From Golden Combs ceramic pots in the creativeinventory"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": {
+      "include": true,
+      "excludeByType": {
+        "*-withtop": true
+      }
+    },
+    "file": "fromgoldencombs:blocktypes/ceramicpot/hivetop-fancy.json",
+    "__comment": "Patch to expose From Golden Combs honey pots in the handbook"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "fromgoldencombs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/creativeinventory",
+    "value": {
+      "fromgoldencombs": [
+        "*"
+      ]
+    },
+    "file": "fromgoldencombs:blocktypes/ceramicpot/hivetop-fancy.json",
+    "__comment": "Patch to expose From Golden Combs honey pots in the creativeinventory"
   }
 ]
