@@ -837,5 +837,115 @@
       }
     },
     "file": "recipes/grid/cv_vesselrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/16",
+    "value": {
+      "ingredientPattern": "V__,DYE",
+      "ingredients": {
+        "V": {
+          "type": "block",
+          "code": "chonkyvessels:chonkystoragevessel-gray-fired"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-blue"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-yellow"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-orange"
+            },
+            "requiresLitres": 4
+          }
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:storagevessel-fiesta"
+      }
+    },
+    "file": "recipes/grid/cv_vesselrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/17",
+    "value": {
+      "ingredientPattern": "V__,DYE",
+      "ingredients": {
+        "V": {
+          "type": "block",
+          "code": "chonkyvessels:chonkystoragevessel-tan-fired"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:weaktanninportion"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:strongtanninportion"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:sand-slate",
+          "quantity": 8
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:storagevessel-dune"
+      }
+    },
+    "file": "recipes/grid/cv_vesselrecipes.json"
   }
 ]

@@ -222,5 +222,33 @@
     "path": "/15/requiresTrait",
     "value": "artisan",
     "file": "recipes/grid/cv_vesselrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      },
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/16/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/cv_vesselrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      },
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/17/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/cv_vesselrecipes.json"
   }
 ]
