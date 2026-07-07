@@ -35,6 +35,7 @@
         "beehive",
         "cornflower",
         "cowrie",
+        "harvestornate",
         "springflowers"
       ]
     },
@@ -55,6 +56,7 @@
     "beehive": { "base": "game:block/clay/vessel/top/beehive" },
 		"cornflower": { "base": "game:block/clay/vessel/top/cornflower"},
     "cowrie": { "base": "game:block/clay/vessel/top/cowrie" },
+    "harvest": { "base": "game:block/clay/vessel/top/harvest" },
     "springflowers": { "base": "game:block/clay/vessel/sides/springflowers" },
     "springflowers2": { "base": "game:block/clay/vessel/top/springflowers" },
     "transparent": { "base": "game:block/transparent" },
@@ -118,6 +120,14 @@
       },
       "lid": {
         "base": "game:block/clay/vessel/top/cowrie"
+      }
+    },
+    "harvestornate": {
+      "ceramic": {
+        "base": "game:block/clay/vessel/sides/harvest"
+      },
+      "lid": {
+        "base": "game:block/clay/vessel/top/harvest"
       }
     },
     "springflowers": {

@@ -1,0 +1,44 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"harvest": [16,16]
+	},
+	"textures": {
+		"harvest": "game:block/clay/vessel/top/harvest"
+	},
+	"elements": [
+		{
+			"name": "lid",
+			"from": [ 5.5, 0.0, 5.5 ],
+			"to": [ 10.5, 0.5, 10.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#harvest", "uv": [ 5.0, 12.0, 10.0, 12.5 ] },
+				"east": { "texture": "#harvest", "uv": [ 4.5, 12.0, 9.5, 12.5 ] },
+				"south": { "texture": "#harvest", "uv": [ 5.0, 12.0, 10.0, 12.5 ] },
+				"west": { "texture": "#harvest", "uv": [ 5.0, 12.0, 10.0, 12.5 ] },
+				"up": { "texture": "#harvest", "uv": [ 2.0, 2.0, 14.0, 14.0 ], "autoUv": false },
+				"down": { "texture": "#harvest", "uv": [ 0.0, 14.0, 2.0, 16.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "handle",
+					"from": [ 2.0, 0.5, 2.0 ],
+					"to": [ 3.0, 1.0, 3.0 ],
+					"rotationOrigin": [ 2.0, 0.5, 2.0 ],
+					"faces": {
+						"north": { "texture": "#harvest", "uv": [ 13.0, 13.0, 11.5, 14.0 ], "autoUv": false },
+						"east": { "texture": "#harvest", "uv": [ 11.0, 1.5, 12.5, 2.5 ], "autoUv": false },
+						"south": { "texture": "#harvest", "uv": [ 6.0, 13.0, 4.5, 14.0 ], "autoUv": false },
+						"west": { "texture": "#harvest", "uv": [ 8.5, 1.5, 10.0, 2.5 ], "autoUv": false },
+						"up": { "texture": "#harvest", "uv": [ 2.0, 0.5, 0.0, 2.5 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}
