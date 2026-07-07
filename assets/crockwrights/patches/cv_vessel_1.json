@@ -733,5 +733,109 @@
       }
     },
     "file": "recipes/grid/cv_vesselrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/14",
+    "value": {
+      "ingredientPattern": "V__,DYE",
+      "ingredients": {
+        "V": {
+          "type": "block",
+          "code": "chonkyvessels:chonkystoragevessel-earthyorange-fired"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-red"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dilutedboraxportion"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:sand-bauxite",
+          "quantity": 8
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:storagevessel-revelry"
+      }
+    },
+    "file": "recipes/grid/cv_vesselrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/15",
+    "value": {
+      "ingredientPattern": "V__,DYE",
+      "ingredients": {
+        "V": {
+          "type": "block",
+          "code": "chonkyvessels:chonkystoragevessel-cream-fired"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-black"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-purple"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:sand-bauxite",
+          "quantity": 8
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:storagevessel-vanity"
+      }
+    },
+    "file": "recipes/grid/cv_vesselrecipes.json"
   }
 ]
