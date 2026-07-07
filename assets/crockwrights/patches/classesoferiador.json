@@ -659,5 +659,16 @@
     "path": "/5/requiresTrait",
     "value": "artisan",
     "file": "recipes/grid/eriadorpot.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/6/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/eriadorpot.json"
   }
 ]

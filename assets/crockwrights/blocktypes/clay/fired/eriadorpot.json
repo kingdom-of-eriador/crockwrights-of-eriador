@@ -37,6 +37,7 @@
         "cowrie",
         "harvest",
         "harvestornate",
+        "oxblood",
         "springflowers"
       ]
     },
@@ -58,6 +59,7 @@
 		"cornflower": { "base": "game:block/clay/vessel/top/cornflower"},
     "cowrie": { "base": "game:block/clay/vessel/top/cowrie" },
     "harvest": { "base": "game:block/clay/vessel/top/harvest" },
+    "oxblood": { "base": "game:block/clay/vessel/top/oxblood" },
     "springflowers": { "base": "game:block/clay/vessel/sides/springflowers" },
     "springflowers2": { "base": "game:block/clay/vessel/top/springflowers" },
     "transparent": { "base": "game:block/transparent" },
@@ -137,6 +139,14 @@
       },
       "lid": {
         "base": "game:block/clay/vessel/top/harvest"
+      }
+    },
+    "oxblood": {
+      "ceramic": {
+        "base": "game:block/clay/vessel/sides/oxblood"
+      },
+      "lid": {
+        "base": "game:block/clay/vessel/top/oxblood"
       }
     },
     "springflowers": {

@@ -1,0 +1,44 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"oxblood": [16,16]
+	},
+	"textures": {
+		"oxblood": "game:block/clay/vessel/top/oxblood"
+	},
+	"elements": [
+		{
+			"name": "lid",
+			"from": [ 5.5, 0.0, 5.5 ],
+			"to": [ 10.5, 0.5, 10.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#oxblood", "uv": [ 5.0, 12.5, 10.0, 13.0 ] },
+				"east": { "texture": "#oxblood", "uv": [ 4.5, 12.5, 9.5, 13.0 ] },
+				"south": { "texture": "#oxblood", "uv": [ 5.0, 12.5, 10.0, 13.0 ] },
+				"west": { "texture": "#oxblood", "uv": [ 5.0, 12.5, 10.0, 13.0 ] },
+				"up": { "texture": "#oxblood", "uv": [ 2.0, 2.0, 14.0, 14.0 ], "autoUv": false },
+				"down": { "texture": "#oxblood", "uv": [ 0.0, 14.0, 2.0, 16.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "handle",
+					"from": [ 2.0, 0.5, 2.0 ],
+					"to": [ 3.0, 1.0, 3.0 ],
+					"rotationOrigin": [ 2.0, 0.5, 2.0 ],
+					"faces": {
+						"north": { "texture": "#oxblood", "uv": [ 8.0, 3.5, 9.5, 4.5 ], "autoUv": false },
+						"east": { "texture": "#oxblood", "uv": [ 6.5, 3.5, 8.0, 4.5 ], "autoUv": false },
+						"south": { "texture": "#oxblood", "uv": [ 12.5, 3.5, 11.0, 4.5 ], "autoUv": false },
+						"west": { "texture": "#oxblood", "uv": [ 7.5, 11.5, 9.0, 12.5 ], "autoUv": false },
+						"up": { "texture": "#oxblood", "uv": [ 0.0, 14.0, 2.0, 16.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

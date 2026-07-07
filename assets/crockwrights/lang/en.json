@@ -6,6 +6,7 @@
   "block-eriadorpot-cowrie-fired": "Cooking pot (Cowrie)",
   "block-eriadorpot-harvest-fired": "Cooking pot (Harvest)",
   "block-eriadorpot-harvestornate-fired": "Cooking pot (Ornate Harvest)",
+  "block-eriadorpot-oxblood-fired": "Cooking pot (Oxblood)",
   "block-eriadorpot-springflowers-fired": "Cooking pot (Springflowers)",
 
   "block-eriadorpot-beehive-cooked": "Cooking pot (Beehive) of {0}",
@@ -13,6 +14,7 @@
   "block-eriadorpot-cowrie-cooked": "Cooking pot (Cowrie) of {0}",
   "block-eriadorpot-harvest-cooked": "Cooking pot (Harvest) of {0}",
   "block-eriadorpot-harvestornate-cooked": "Cooking pot (Ornate Harvest) of {0}",
+  "block-eriadorpot-oxblood-cooked": "Cooking pot (Oxblood) of {0}",
   "block-eriadorpot-springflowers-cooked": "Cooking pot (Springflowers) of {0}",
 
   "blockdesc-eriadorpot-*": "Ceramic cooking pots made by skilled artisans from the Kingdom of Eriador. The temporal enameling renders them immune to stains and wear."
