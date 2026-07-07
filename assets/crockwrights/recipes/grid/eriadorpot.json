@@ -165,7 +165,7 @@
       "T": {
         "type": "item",
         "code": "game:gear-temporal",
-        "quantity": 3
+        "quantity": 2
       },
       "H": {
         "type": "item",
@@ -194,6 +194,58 @@
           "requiresContent": {
             "type": "item",
             "code": "game:dye-orange"
+          },
+          "requiresLitres": 2
+        }
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "eriadorpot-harvest-fired",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "P_,TH,DY",
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:claypot-brown-fired"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 3
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1,
+        "tags": [
+          "tool-hammer"
+        ]
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-orange"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "Y": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
           },
           "requiresLitres": 2
         }

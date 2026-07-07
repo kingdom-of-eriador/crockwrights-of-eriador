@@ -35,6 +35,7 @@
         "beehive",
         "cornflower",
         "cowrie",
+        "harvest",
         "harvestornate",
         "springflowers"
       ]
@@ -120,6 +121,14 @@
       },
       "lid": {
         "base": "game:block/clay/vessel/top/cowrie"
+      }
+    },
+    "harvest": {
+      "ceramic": {
+        "base": "game:block/clay/vessel/sides/harvest"
+      },
+      "lid": {
+        "base": "game:block/clay/vessel/top/harvest"
       }
     },
     "harvestornate": {
