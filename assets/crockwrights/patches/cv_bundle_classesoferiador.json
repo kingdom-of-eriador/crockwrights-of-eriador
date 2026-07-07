@@ -26,5 +26,19 @@
     "path": "/1/requiresTrait",
     "value": "artisan",
     "file": "recipes/grid/cv_bundlerecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      },
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/cv_bundlerecipes.json"
   }
 ]

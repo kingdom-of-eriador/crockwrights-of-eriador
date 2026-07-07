@@ -121,5 +121,55 @@
       }
     },
     "file": "recipes/grid/cv_bundlerecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/0",
+    "value": {
+      "ingredientPattern": "JJJ,DYD",
+      "ingredients": {
+        "J": {
+          "type": "block",
+          "code": "game:jug-*-fired",
+          "allowedVariants": ["black", "blue", "brown", "cream",
+            "fire", "gray", "orange", "red", "tan", "earthyorange"],
+          "quantity": 1
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-purple"
+            },
+            "requiresLitres": 3
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-pink"
+            },
+            "requiresLitres": 3
+          }
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:bundlestoragevessel-midnight"
+      }
+    },
+    "file": "recipes/grid/cv_bundlerecipes.json"
   }
 ]
