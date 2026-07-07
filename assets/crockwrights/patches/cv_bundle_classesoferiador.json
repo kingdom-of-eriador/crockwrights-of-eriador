@@ -1,0 +1,16 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      },
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/cv_bundlerecipes.json"
+  }
+]
