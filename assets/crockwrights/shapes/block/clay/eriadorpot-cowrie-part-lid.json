@@ -1,0 +1,44 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"cowrie": [16,16]
+	},
+	"textures": {
+		"cowrie": "game:block/clay/vessel/top/cowrie"
+	},
+	"elements": [
+		{
+			"name": "lid",
+			"from": [ 5.5, 0.0, 5.5 ],
+			"to": [ 10.5, 0.5, 10.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#cowrie", "uv": [ 5.0, 12.0, 10.0, 12.5 ] },
+				"east": { "texture": "#cowrie", "uv": [ 4.5, 12.0, 9.5, 12.5 ] },
+				"south": { "texture": "#cowrie", "uv": [ 5.0, 12.0, 10.0, 12.5 ] },
+				"west": { "texture": "#cowrie", "uv": [ 5.0, 12.0, 10.0, 12.5 ] },
+				"up": { "texture": "#cowrie", "uv": [ 3.0, 3.0, 13.0, 13.0 ], "autoUv": false },
+				"down": { "texture": "#cowrie", "uv": [ 0.0, 14.0, 2.0, 16.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "handle",
+					"from": [ 2.0, 0.5, 2.0 ],
+					"to": [ 3.0, 1.0, 3.0 ],
+					"rotationOrigin": [ 2.0, 0.5, 2.0 ],
+					"faces": {
+						"north": { "texture": "#cowrie", "uv": [ 11.5, 4.5, 10.5, 5.5 ], "autoUv": false },
+						"east": { "texture": "#cowrie", "uv": [ 10.5, 4.5, 11.5, 5.0 ], "autoUv": false },
+						"south": { "texture": "#cowrie", "uv": [ 11.5, 4.5, 10.5, 5.0 ], "autoUv": false },
+						"west": { "texture": "#cowrie", "uv": [ 10.5, 4.5, 11.5, 5.0 ] },
+						"up": { "texture": "#cowrie", "uv": [ 10.5, 4.5, 11.5, 5.5 ] }
+					}
+				}
+			]
+		}
+	]}

@@ -4,58 +4,6 @@
     "ingredients": {
       "P": {
         "type": "block",
-        "code": "game:claypot-red-fired"
-      },
-      "T": {
-        "type": "item",
-        "code": "game:gear-temporal",
-        "quantity": 2
-      },
-      "H": {
-        "type": "item",
-        "code": "game:hammer-*",
-        "isTool": true,
-        "toolDurabilityCost": 1,
-        "tags": [
-          "tool-hammer"
-        ]
-      },
-      "D": {
-        "type": "block",
-        "code": "game:woodbucket",
-        "recipeAttributes": {
-          "requiresContent": {
-            "type": "item",
-            "code": "game:dye-green"
-          },
-          "requiresLitres": 2
-        }
-      },
-      "Y": {
-        "type": "block",
-        "code": "game:woodbucket",
-        "recipeAttributes": {
-          "requiresContent": {
-            "type": "item",
-            "code": "game:dye-pink"
-          },
-          "requiresLitres": 2
-        }
-      }
-    },
-    "width": 2,
-    "height": 3,
-    "output": {
-      "type": "block",
-      "code": "eriadorpot-springflowers-fired",
-      "quantity": 1
-    }
-  },
-  {
-    "ingredientPattern": "P_,TH,DY",
-    "ingredients": {
-      "P": {
-        "type": "block",
         "code": "game:claypot-blue-fired"
       },
       "T": {
@@ -103,4 +51,160 @@
       "quantity": 1
     }
   },
+  {
+    "ingredientPattern": "P_,TH,DY",
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:claypot-gray-fired"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 2
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1,
+        "tags": [
+          "tool-hammer"
+        ]
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-blue"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "Y": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dilutedboraxportion"
+          },
+          "requiresLitres": 2
+        }
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "eriadorpot-cornflower-fired",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "P_,TH,DY",
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:claypot-cream-fired"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 2
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1,
+        "tags": [
+          "tool-hammer"
+        ]
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-gray"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "Y": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-pink"
+          },
+          "requiresLitres": 2
+        }
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "eriadorpot-cowrie-fired",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "P_,TH,DY",
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:claypot-red-fired"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 2
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1,
+        "tags": [
+          "tool-hammer"
+        ]
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-green"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "Y": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-pink"
+          },
+          "requiresLitres": 2
+        }
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "eriadorpot-springflowers-fired",
+      "quantity": 1
+    }
+  }
 ]

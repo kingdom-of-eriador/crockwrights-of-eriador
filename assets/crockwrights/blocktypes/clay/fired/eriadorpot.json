@@ -33,6 +33,8 @@
       "code": "color",
       "states": [
         "beehive",
+        "cornflower",
+        "cowrie",
         "springflowers"
       ]
     },
@@ -51,6 +53,8 @@
   },
   "textures": {
     "beehive": { "base": "game:block/clay/vessel/top/beehive" },
+		"cornflower": { "base": "game:block/clay/vessel/top/cornflower"},
+    "cowrie": { "base": "game:block/clay/vessel/top/cowrie" },
     "springflowers": { "base": "game:block/clay/vessel/sides/springflowers" },
     "springflowers2": { "base": "game:block/clay/vessel/top/springflowers" },
     "transparent": { "base": "game:block/transparent" },
@@ -92,20 +96,36 @@
     "glue-cold": { "base": "game:block/liquid/glue-cold" }
   },
   "texturesByType": {
-    "springflowers": {
-      "ceramic": {
-        "base": "game:block/clay/vessel/sides/springflowers"
-      },
-      "lid": {
-        "base": "game:block/clay/vessel/sides/springflowers"
-      }
-    },
     "beehive": {
       "ceramic": {
         "base": "game:block/clay/vessel/top/beehive"
       },
       "lid": {
         "base": "game:block/clay/vessel/top/beehive"
+      }
+    },
+    "cornflower": {
+      "ceramic": {
+        "base": "game:block/clay/vessel/sides/cornflower"
+      },
+      "lid": {
+        "base": "game:block/clay/vessel/top/cornflower"
+      }
+    },
+    "cowrie": {
+      "ceramic": {
+        "base": "game:block/clay/vessel/sides/cowrie"
+      },
+      "lid": {
+        "base": "game:block/clay/vessel/top/cowrie"
+      }
+    },
+    "springflowers": {
+      "ceramic": {
+        "base": "game:block/clay/vessel/sides/springflowers"
+      },
+      "lid": {
+        "base": "game:block/clay/vessel/sides/springflowers"
       }
     }
   },
