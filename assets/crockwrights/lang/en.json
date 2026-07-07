@@ -1,8 +1,10 @@
 {
   "game:tabname-crockwrights": "Crock-Wrights",
 
+  "block-eriadorpot-beehive-fired": "Cooking pot (Beehive)",
   "block-eriadorpot-springflowers-fired": "Cooking pot (Springflowers)",
 
+  "block-eriadorpot-beehive-cooked": "Cooking pot (Beehive) of {0}",
   "block-eriadorpot-springflowers-cooked": "Cooking pot (Springflowers) of {0}",
 
   "blockdesc-eriadorpot-*": "Ceramic cooking pots made by skilled artisans from the Kingdom of Eriador. The temporal enameling renders them immune to stains and wear."

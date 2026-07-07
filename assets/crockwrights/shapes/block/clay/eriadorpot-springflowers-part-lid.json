@@ -6,12 +6,6 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"rattlesnake": [16,16],
-		"beehive": [16,16],
-		"caveaurora": [16,16],
-		"abyss": [16,16],
-		"cornflower": [16,16],
-		"harvest": [16,16],
 		"springflowers": [16,16],
 		"springflowers2": [16,16]
 	},

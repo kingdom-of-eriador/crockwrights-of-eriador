@@ -32,6 +32,7 @@
     {
       "code": "color",
       "states": [
+        "beehive",
         "springflowers"
       ]
     },
@@ -49,6 +50,7 @@
     }
   },
   "textures": {
+    "beehive": { "base": "game:block/clay/vessel/top/beehive" },
     "springflowers": { "base": "game:block/clay/vessel/sides/springflowers" },
     "springflowers2": { "base": "game:block/clay/vessel/top/springflowers" },
     "transparent": { "base": "game:block/transparent" },
@@ -96,6 +98,14 @@
       },
       "lid": {
         "base": "game:block/clay/vessel/sides/springflowers"
+      }
+    },
+    "beehive": {
+      "ceramic": {
+        "base": "game:block/clay/vessel/top/beehive"
+      },
+      "lid": {
+        "base": "game:block/clay/vessel/top/beehive"
       }
     }
   },

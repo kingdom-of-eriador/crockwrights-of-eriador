@@ -50,5 +50,57 @@
       "code": "eriadorpot-springflowers-fired",
       "quantity": 1
     }
-  }
+  },
+  {
+    "ingredientPattern": "P_,TH,DY",
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:claypot-blue-fired"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 2
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1,
+        "tags": [
+          "tool-hammer"
+        ]
+      },
+      "D": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:dye-yellow"
+          },
+          "requiresLitres": 2
+        }
+      },
+      "Y": {
+        "type": "block",
+        "code": "game:woodbucket",
+        "recipeAttributes": {
+          "requiresContent": {
+            "type": "item",
+            "code": "game:strongtanninportion"
+          },
+          "requiresLitres": 2
+        }
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "eriadorpot-beehive-fired",
+      "quantity": 1
+    }
+  },
 ]
