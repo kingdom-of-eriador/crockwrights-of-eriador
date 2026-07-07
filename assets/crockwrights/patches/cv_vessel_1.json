@@ -23,7 +23,7 @@
               "type": "item",
               "code": "game:dye-gray"
             },
-            "requiresLitres": 2
+            "requiresLitres": 4
           }
         },
         "Y": {
@@ -34,7 +34,7 @@
               "type": "item",
               "code": "game:dye-pink"
             },
-            "requiresLitres": 2
+            "requiresLitres": 4
           }
         },
         "E": {
@@ -48,6 +48,58 @@
       "output": {
         "type": "block",
         "code": "chonkyvessels:storagevessel-blush"
+      }
+    },
+    "file": "recipes/grid/cv_vesselrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/0",
+    "value": {
+      "ingredientPattern": "V__,DYE",
+      "ingredients": {
+        "V": {
+          "type": "block",
+          "code": "chonkyvessels:chonkystoragevessel-gray-fired"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-purple"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-pink"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:sand-phyllite",
+          "quantity": 8
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:storagevessel-empress"
       }
     },
     "file": "recipes/grid/cv_vesselrecipes.json"
