@@ -89,6 +89,16 @@
     "glue-hot": { "base": "game:block/liquid/glue-hot" },
     "glue-cold": { "base": "game:block/liquid/glue-cold" }
   },
+  "texturesByType": {
+    "springflowers": {
+      "ceramic": {
+        "base": "game:block/clay/vessel/sides/springflowers"
+      },
+      "lid": {
+        "base": "game:block/clay/vessel/sides/springflowers"
+      }
+    }
+  },
   "attributes": {
     "tempGlowMode": 1,
     "shelvable": true,
