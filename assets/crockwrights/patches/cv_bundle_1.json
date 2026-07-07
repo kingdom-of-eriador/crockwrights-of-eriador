@@ -68,7 +68,7 @@
       }
     ],
     "op": "addmerge",
-    "path": "/0",
+    "path": "/1",
     "value": {
       "ingredientPattern": "JJJ,DYE",
       "ingredients": {
@@ -129,7 +129,7 @@
       }
     ],
     "op": "addmerge",
-    "path": "/0",
+    "path": "/2",
     "value": {
       "ingredientPattern": "JJJ,DYD",
       "ingredients": {
@@ -179,7 +179,7 @@
       }
     ],
     "op": "addmerge",
-    "path": "/0",
+    "path": "/3",
     "value": {
       "ingredientPattern": "JJJ,DYE",
       "ingredients": {
