@@ -1,0 +1,182 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels",
+        "__comment": "Patch compatible up to v1.5.5"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/0",
+    "value": {
+      "ingredientPattern": "JLJ,DYE",
+      "ingredients": {
+        "J": {
+          "type": "block",
+          "code": "game:jug-*-fired",
+          "allowedVariants": ["black", "blue", "brown", "cream",
+            "fire", "gray", "orange", "red", "tan", "earthyorange"],
+          "quantity": 1
+        },
+        "L": {
+          "type": "block",
+          "code": "game:linen-*-down",
+          "allowedVariants": ["diamond", "normal", "offset", "square"],
+          "quantity": 2
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-orange"
+            },
+            "requiresLitres": 3
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-yellow"
+            },
+            "requiresLitres": 3
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:strongtanninportion"
+            },
+            "requiresLitres": 3
+          }
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:bundlegrainstoragevessel-earthy"
+      }
+    },
+    "file": "recipes/grid/cv_grainbundlerecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/1",
+    "value": {
+      "ingredientPattern": "JLJ,DYD",
+      "ingredients": {
+        "J": {
+          "type": "block",
+          "code": "game:jug-*-fired",
+          "allowedVariants": ["black", "blue", "brown", "cream",
+            "fire", "gray", "orange", "red", "tan", "earthyorange"],
+          "quantity": 1
+        },
+        "L": {
+          "type": "block",
+          "code": "game:linen-*-down",
+          "allowedVariants": ["diamond", "normal", "offset", "square"],
+          "quantity": 2
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-green"
+            },
+            "requiresLitres": 3
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:weaktanninportion"
+            },
+            "requiresLitres": 3
+          }
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:bundlegrainstoragevessel-mold"
+      }
+    },
+    "file": "recipes/grid/cv_grainbundlerecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/2",
+    "value": {
+      "ingredientPattern": "JLJ,DYD",
+      "ingredients": {
+        "J": {
+          "type": "block",
+          "code": "game:jug-*-fired",
+          "allowedVariants": ["black", "blue", "brown", "cream",
+            "fire", "gray", "orange", "red", "tan", "earthyorange"],
+          "quantity": 1
+        },
+        "L": {
+          "type": "block",
+          "code": "game:linen-*-down",
+          "allowedVariants": ["diamond", "normal", "offset", "square"],
+          "quantity": 2
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:weaktanninportion"
+            },
+            "requiresLitres": 3
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:strongtanninportion"
+            },
+            "requiresLitres": 3
+          }
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:bundlegrainstoragevessel-dust"
+      }
+    },
+    "file": "recipes/grid/cv_grainbundlerecipes.json"
+  }
+]
