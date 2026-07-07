@@ -60,5 +60,66 @@
       }
     },
     "file": "recipes/grid/cv_bundlerecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/0",
+    "value": {
+      "ingredientPattern": "JJJ,DYE",
+      "ingredients": {
+        "J": {
+          "type": "block",
+          "code": "game:jug-*-fired",
+          "allowedVariants": ["black", "blue", "brown", "cream",
+            "fire", "gray", "orange", "red", "tan", "earthyorange"],
+          "quantity": 1
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-orange"
+            },
+            "requiresLitres": 3
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-yellow"
+            },
+            "requiresLitres": 3
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:strongtanninportion"
+            },
+            "requiresLitres": 3
+          }
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:bundlestoragevessel-earthy"
+      }
+    },
+    "file": "recipes/grid/cv_bundlerecipes.json"
   }
 ]
