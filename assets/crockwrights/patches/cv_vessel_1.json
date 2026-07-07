@@ -1,0 +1,55 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels",
+        "__comment": "Patch compatible up to v1.5.5"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/0",
+    "value": {
+      "ingredientPattern": "V__,DYE",
+      "ingredients": {
+        "V": {
+          "type": "block",
+          "code": "chonkyvessels:chonkystoragevessel-cream-fired"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-gray"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-pink"
+            },
+            "requiresLitres": 2
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:sand-chalk",
+          "quantity": 8
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:storagevessel-blush"
+      }
+    },
+    "file": "recipes/grid/cv_vesselrecipes.json"
+  }
+]
