@@ -178,5 +178,53 @@
       }
     },
     "file": "recipes/grid/cv_grainbundlerecipes.json"
+  },
+
+
+
+
+
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador",
+        "__comment": "Compatibility with Classes of Eriador below"
+      },
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/cv_grainbundlerecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      },
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/cv_grainbundlerecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      },
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/cv_grainbundlerecipes.json"
   }
 ]
