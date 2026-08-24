@@ -264,6 +264,11 @@
         },
         "Y": {
           "type": "block",
+          "code": "game:sand-sandstone",
+          "quantity": 8
+        },
+        "E": {
+          "type": "block",
           "code": "game:woodbucket",
           "recipeAttributes": {
             "requiresContent": {
@@ -272,11 +277,6 @@
             },
             "requiresLitres": 3
           }
-        },
-        "E": {
-          "type": "block",
-          "code": "game:sand-sandstone",
-          "quantity": 8
         }
       },
       "width": 3,
@@ -284,6 +284,61 @@
       "output": {
         "type": "block",
         "code": "chonkyvessels:bundlestoragevessel-ornate"
+      }
+    },
+      "file": "recipes/grid/cv_bundlerecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/5",
+    "value": {
+      "ingredientPattern": "JJJ,DYE",
+      "ingredients": {
+        "J": {
+          "type": "block",
+          "code": "game:jug-*-fired",
+          "allowedVariants": ["black", "blue", "brown", "cream",
+            "fire", "gray", "orange", "red", "tan", "earthyorange"],
+          "quantity": 1
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-blue"
+            },
+            "requiresLitres": 3
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:sand-andesite",
+          "quantity": 8
+        },
+        "E": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dilutedboraxportion"
+            },
+            "requiresLitres": 3
+          }
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:bundlestoragevessel-foam"
       }
     },
       "file": "recipes/grid/cv_bundlerecipes.json"
@@ -361,6 +416,20 @@
     ],
     "op": "addmerge",
     "path": "/4/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/cv_bundlerecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      },
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
     "value": "artisan",
     "file": "recipes/grid/cv_bundlerecipes.json"
   }
