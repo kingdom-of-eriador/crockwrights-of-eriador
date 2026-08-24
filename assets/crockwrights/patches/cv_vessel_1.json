@@ -1110,6 +1110,58 @@
     },
     "file": "recipes/grid/cv_vesselrecipes.json"
   },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/21",
+    "value": {
+      "ingredientPattern": "V__,DYE",
+      "ingredients": {
+        "V": {
+          "type": "block",
+          "code": "chonkyvessels:chonkystoragevessel-gray-fired"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-red"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-purple"
+            },
+            "requiresLitres": 4
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:sand-sandstone",
+          "quantity": 8
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:storagevessel-ornate"
+      }
+    },
+    "file": "recipes/grid/cv_vesselrecipes.json"
+  },
 
 
 
@@ -1407,6 +1459,20 @@
     ],
     "op": "addmerge",
     "path": "/20/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/cv_vesselrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      },
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/21/requiresTrait",
     "value": "artisan",
     "file": "recipes/grid/cv_vesselrecipes.json"
   }

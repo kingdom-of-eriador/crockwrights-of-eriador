@@ -233,6 +233,61 @@
     },
     "file": "recipes/grid/cv_bundlerecipes.json"
   },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/4",
+    "value": {
+      "ingredientPattern": "JJJ,DYE",
+      "ingredients": {
+        "J": {
+          "type": "block",
+          "code": "game:jug-*-fired",
+          "allowedVariants": ["black", "blue", "brown", "cream",
+            "fire", "gray", "orange", "red", "tan", "earthyorange"],
+          "quantity": 1
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-red"
+            },
+            "requiresLitres": 3
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-purple"
+            },
+            "requiresLitres": 3
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:sand-sandstone",
+          "quantity": 8
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:bundlestoragevessel-ornate"
+      }
+    },
+      "file": "recipes/grid/cv_bundlerecipes.json"
+  },
   
 
 
@@ -292,6 +347,20 @@
     ],
     "op": "addmerge",
     "path": "/3/requiresTrait",
+    "value": "artisan",
+    "file": "recipes/grid/cv_bundlerecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "classesoferiador"
+      },
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
     "value": "artisan",
     "file": "recipes/grid/cv_bundlerecipes.json"
   }
