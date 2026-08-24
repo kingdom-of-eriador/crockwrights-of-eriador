@@ -3,7 +3,7 @@
     "dependsOn": [
       {
         "modid": "chonkyvessels",
-        "__comment": "Patch compatible up to v1.5.5"
+        "__comment": "Patch compatible up to v1.5.9"
       }
     ],
     "op": "addmerge",
