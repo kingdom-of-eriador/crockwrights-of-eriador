@@ -3,20 +3,17 @@
     "dependsOn": [
       {
         "modid": "chonkyvessels",
-        "__comment": "Patch compatible up to v1.5.5"
+        "__comment": "Patch compatible up to v1.5.9"
       }
     ],
     "op": "addmerge",
     "path": "/0",
     "value": {
-      "ingredientPattern": "JJJ,DYE",
+      "ingredientPattern": "V__,DYE",
       "ingredients": {
-        "J": {
+        "V": {
           "type": "block",
-          "code": "game:jug-*-fired",
-          "allowedVariants": ["black", "blue", "brown", "cream",
-            "fire", "gray", "orange", "red", "tan", "earthyorange"],
-          "quantity": 1
+          "code": "chonkyvessels:tallchonkystoragevessel-gray-fired"
         },
         "D": {
           "type": "block",
@@ -24,9 +21,9 @@
           "recipeAttributes": {
             "requiresContent": {
               "type": "item",
-              "code": "game:dye-blue"
+              "code": "game:dye-red"
             },
-            "requiresLitres": 3
+            "requiresLitres": 5
           }
         },
         "Y": {
@@ -35,31 +32,25 @@
           "recipeAttributes": {
             "requiresContent": {
               "type": "item",
-              "code": "game:dye-green"
+              "code": "game:dye-purple"
             },
-            "requiresLitres": 3
+            "requiresLitres": 5
           }
         },
         "E": {
           "type": "block",
-          "code": "game:woodbucket",
-          "recipeAttributes": {
-            "requiresContent": {
-              "type": "item",
-              "code": "game:dye-pink"
-            },
-            "requiresLitres": 3
-          }
+          "code": "game:sand-sandstone",
+          "quantity": 10
         }
       },
       "width": 3,
       "height": 2,
       "output": {
         "type": "block",
-        "code": "chonkyvessels:bundlestoragevessel-oxidized"
+        "code": "chonkyvessels:tallstoragevessel-ornate"
       }
     },
-    "file": "recipes/grid/cv_bundlerecipes.json"
+    "file": "recipes/grid/cv_girthyrecipes.json"
   },
   {
     "dependsOn": [
@@ -70,241 +61,11 @@
     "op": "addmerge",
     "path": "/1",
     "value": {
-      "ingredientPattern": "JJJ,DYE",
+      "ingredientPattern": "V__,DYE",
       "ingredients": {
-        "J": {
+        "V": {
           "type": "block",
-          "code": "game:jug-*-fired",
-          "allowedVariants": ["black", "blue", "brown", "cream",
-            "fire", "gray", "orange", "red", "tan", "earthyorange"],
-          "quantity": 1
-        },
-        "D": {
-          "type": "block",
-          "code": "game:woodbucket",
-          "recipeAttributes": {
-            "requiresContent": {
-              "type": "item",
-              "code": "game:dye-orange"
-            },
-            "requiresLitres": 3
-          }
-        },
-        "Y": {
-          "type": "block",
-          "code": "game:woodbucket",
-          "recipeAttributes": {
-            "requiresContent": {
-              "type": "item",
-              "code": "game:dye-yellow"
-            },
-            "requiresLitres": 3
-          }
-        },
-        "E": {
-          "type": "block",
-          "code": "game:woodbucket",
-          "recipeAttributes": {
-            "requiresContent": {
-              "type": "item",
-              "code": "game:strongtanninportion"
-            },
-            "requiresLitres": 3
-          }
-        }
-      },
-      "width": 3,
-      "height": 2,
-      "output": {
-        "type": "block",
-        "code": "chonkyvessels:bundlestoragevessel-earthy"
-      }
-    },
-    "file": "recipes/grid/cv_bundlerecipes.json"
-  },
-  {
-    "dependsOn": [
-      {
-        "modid": "chonkyvessels"
-      }
-    ],
-    "op": "addmerge",
-    "path": "/2",
-    "value": {
-      "ingredientPattern": "JJJ,DYD",
-      "ingredients": {
-        "J": {
-          "type": "block",
-          "code": "game:jug-*-fired",
-          "allowedVariants": ["black", "blue", "brown", "cream",
-            "fire", "gray", "orange", "red", "tan", "earthyorange"],
-          "quantity": 1
-        },
-        "D": {
-          "type": "block",
-          "code": "game:woodbucket",
-          "recipeAttributes": {
-            "requiresContent": {
-              "type": "item",
-              "code": "game:dye-purple"
-            },
-            "requiresLitres": 3
-          }
-        },
-        "Y": {
-          "type": "block",
-          "code": "game:woodbucket",
-          "recipeAttributes": {
-            "requiresContent": {
-              "type": "item",
-              "code": "game:dye-pink"
-            },
-            "requiresLitres": 3
-          }
-        }
-      },
-      "width": 3,
-      "height": 2,
-      "output": {
-        "type": "block",
-        "code": "chonkyvessels:bundlestoragevessel-midnight"
-      }
-    },
-    "file": "recipes/grid/cv_bundlerecipes.json"
-  },
-  {
-    "dependsOn": [
-      {
-        "modid": "chonkyvessels"
-      }
-    ],
-    "op": "addmerge",
-    "path": "/3",
-    "value": {
-      "ingredientPattern": "JJJ,DYE",
-      "ingredients": {
-        "J": {
-          "type": "block",
-          "code": "game:jug-*-fired",
-          "allowedVariants": ["black", "blue", "brown", "cream",
-            "fire", "gray", "orange", "red", "tan", "earthyorange"],
-          "quantity": 1
-        },
-        "D": {
-          "type": "block",
-          "code": "game:woodbucket",
-          "recipeAttributes": {
-            "requiresContent": {
-              "type": "item",
-              "code": "game:weaktanninportion"
-            },
-            "requiresLitres": 3
-          }
-        },
-        "Y": {
-          "type": "block",
-          "code": "game:woodbucket",
-          "recipeAttributes": {
-            "requiresContent": {
-              "type": "item",
-              "code": "game:strongtanninportion"
-            },
-            "requiresLitres": 3
-          }
-        },
-        "E": {
-          "type": "block",
-          "code": "game:woodbucket",
-          "recipeAttributes": {
-            "requiresContent": {
-              "type": "item",
-              "code": "game:dye-yellow"
-            },
-            "requiresLitres": 3
-          }
-        }
-      },
-      "width": 3,
-      "height": 2,
-      "output": {
-        "type": "block",
-        "code": "chonkyvessels:bundlestoragevessel-pupae"
-      }
-    },
-    "file": "recipes/grid/cv_bundlerecipes.json"
-  },
-  {
-    "dependsOn": [
-      {
-        "modid": "chonkyvessels"
-      }
-    ],
-    "op": "addmerge",
-    "path": "/4",
-    "value": {
-      "ingredientPattern": "JJJ,DYE",
-      "ingredients": {
-        "J": {
-          "type": "block",
-          "code": "game:jug-*-fired",
-          "allowedVariants": ["black", "blue", "brown", "cream",
-            "fire", "gray", "orange", "red", "tan", "earthyorange"],
-          "quantity": 1
-        },
-        "D": {
-          "type": "block",
-          "code": "game:woodbucket",
-          "recipeAttributes": {
-            "requiresContent": {
-              "type": "item",
-              "code": "game:dye-red"
-            },
-            "requiresLitres": 3
-          }
-        },
-        "Y": {
-          "type": "block",
-          "code": "game:woodbucket",
-          "recipeAttributes": {
-            "requiresContent": {
-              "type": "item",
-              "code": "game:dye-purple"
-            },
-            "requiresLitres": 3
-          }
-        },
-        "E": {
-          "type": "block",
-          "code": "game:sand-sandstone",
-          "quantity": 8
-        }
-      },
-      "width": 3,
-      "height": 2,
-      "output": {
-        "type": "block",
-        "code": "chonkyvessels:bundlestoragevessel-ornate"
-      }
-    },
-      "file": "recipes/grid/cv_bundlerecipes.json"
-  },
-  {
-    "dependsOn": [
-      {
-        "modid": "chonkyvessels"
-      }
-    ],
-    "op": "addmerge",
-    "path": "/5",
-    "value": {
-      "ingredientPattern": "JJJ,DYE",
-      "ingredients": {
-        "J": {
-          "type": "block",
-          "code": "game:jug-*-fired",
-          "allowedVariants": ["black", "blue", "brown", "cream",
-            "fire", "gray", "orange", "red", "tan", "earthyorange"],
-          "quantity": 1
+          "code": "chonkyvessels:tallchonkystoragevessel-gray-fired"
         },
         "D": {
           "type": "block",
@@ -314,7 +75,7 @@
               "type": "item",
               "code": "game:dye-blue"
             },
-            "requiresLitres": 3
+            "requiresLitres": 5
           }
         },
         "Y": {
@@ -325,25 +86,233 @@
               "type": "item",
               "code": "game:dilutedboraxportion"
             },
-            "requiresLitres": 3
+            "requiresLitres": 5
           }
         },
         "E": {
           "type": "block",
           "code": "game:sand-andesite",
-          "quantity": 8
+          "quantity": 10
         }
       },
       "width": 3,
       "height": 2,
       "output": {
         "type": "block",
-        "code": "chonkyvessels:bundlestoragevessel-foam"
+        "code": "chonkyvessels:tallstoragevessel-foam"
       }
     },
-      "file": "recipes/grid/cv_bundlerecipes.json"
+    "file": "recipes/grid/cv_girthyrecipes.json"
   },
-  
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/2",
+    "value": {
+      "ingredientPattern": "V__,DYE",
+      "ingredients": {
+        "V": {
+          "type": "block",
+          "code": "chonkyvessels:tallchonkystoragevessel-blue-fired"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-orange"
+            },
+            "requiresLitres": 5
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:strongtanninportion"
+            },
+            "requiresLitres": 5
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:sand-chert",
+          "quantity": 10
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:tallstoragevessel-bloom"
+      }
+    },
+    "file": "recipes/grid/cv_girthyrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/3",
+    "value": {
+      "ingredientPattern": "V__,DYE",
+      "ingredients": {
+        "V": {
+          "type": "block",
+          "code": "chonkyvessels:tallchonkystoragevessel-tan-fired"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-red"
+            },
+            "requiresLitres": 5
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dilutedboraxportion"
+            },
+            "requiresLitres": 5
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:sand-sandstone",
+          "quantity": 10
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:tallstoragevessel-moonlight"
+      }
+    },
+    "file": "recipes/grid/cv_girthyrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/4",
+    "value": {
+      "ingredientPattern": "V__,DYE",
+      "ingredients": {
+        "V": {
+          "type": "block",
+          "code": "chonkyvessels:tallchonkystoragevessel-cream-fired"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-pink"
+            },
+            "requiresLitres": 5
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-purple"
+            },
+            "requiresLitres": 5
+          }
+        },
+        "E": {
+          "type": "block",
+          "code": "game:sand-chalk",
+          "quantity": 10
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:tallstoragevessel-amethyst"
+      }
+    },
+    "file": "recipes/grid/cv_girthyrecipes.json"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "chonkyvessels"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/5",
+    "value": {
+      "ingredientPattern": "V__,DYE",
+      "ingredients": {
+        "V": {
+          "type": "block",
+          "code": "chonkyvessels:tallchonkystoragevessel-cream-fired"
+        },
+        "D": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-blue"
+            },
+            "requiresLitres": 5
+          }
+        },
+        "Y": {
+          "type": "block",
+          "code": "game:woodbucket",
+          "recipeAttributes": {
+            "requiresContent": {
+              "type": "item",
+              "code": "game:dye-white"
+            },
+            "requiresLitres": 5
+          }
+        },
+        "E": {
+          "type": "item",
+          "code": "game:powder-lapislazuli",
+          "quantity": 10
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "block",
+        "code": "chonkyvessels:tallstoragevessel-dynasty"
+      }
+    },
+    "file": "recipes/grid/cv_girthyrecipes.json"
+  },
+
 
 
 
@@ -361,7 +330,7 @@
     "op": "addmerge",
     "path": "/0/requiresTrait",
     "value": "artisan",
-    "file": "recipes/grid/cv_bundlerecipes.json"
+    "file": "recipes/grid/cv_girthyrecipes.json"
   },
   {
     "dependsOn": [
@@ -375,7 +344,7 @@
     "op": "addmerge",
     "path": "/1/requiresTrait",
     "value": "artisan",
-    "file": "recipes/grid/cv_bundlerecipes.json"
+    "file": "recipes/grid/cv_girthyrecipes.json"
   },
   {
     "dependsOn": [
@@ -389,7 +358,7 @@
     "op": "addmerge",
     "path": "/2/requiresTrait",
     "value": "artisan",
-    "file": "recipes/grid/cv_bundlerecipes.json"
+    "file": "recipes/grid/cv_girthyrecipes.json"
   },
   {
     "dependsOn": [
@@ -403,7 +372,7 @@
     "op": "addmerge",
     "path": "/3/requiresTrait",
     "value": "artisan",
-    "file": "recipes/grid/cv_bundlerecipes.json"
+    "file": "recipes/grid/cv_girthyrecipes.json"
   },
   {
     "dependsOn": [
@@ -417,7 +386,7 @@
     "op": "addmerge",
     "path": "/4/requiresTrait",
     "value": "artisan",
-    "file": "recipes/grid/cv_bundlerecipes.json"
+    "file": "recipes/grid/cv_girthyrecipes.json"
   },
   {
     "dependsOn": [
@@ -431,6 +400,6 @@
     "op": "addmerge",
     "path": "/5/requiresTrait",
     "value": "artisan",
-    "file": "recipes/grid/cv_bundlerecipes.json"
+    "file": "recipes/grid/cv_girthyrecipes.json"
   }
 ]
